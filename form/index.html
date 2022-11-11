@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form">
+            <h1>Job Application <span class="title">(Software Engineer)</span></h1>
+            <form action="">
+                <div class="form-container">
+                    <div class="form-control">
+                        <label for="fname">First Name</label>
+                        <input type="text">
+                    </div>
+
+                    <div class="form-control">
+                        <label for="lname">Last Name</label>
+                        <input type="text">
+                    </div>
+
+                    <div class="form-control">
+                        <label for="email">email</label>
+                        <input type="email">
+                    </div>
+
+                    <div class="form-control">
+                        <label for="jrol">Job Rol</label>
+                        <select name="role" id="role">
+                            <option value="">Select job role</option>
+                            <option value="fd">Frontend Developer</option>
+                            <option value="bd">Backend devloper</option>
+                            <option value="fd">Fullstack Developer</option>
+                            <option value="ad">Application Developer</option>
+                        </select>
+                    </div>
+                    <div class="textarea-control">
+                        <label for="address">Address</label>
+                        <textarea name="address" cols="50" rows="4" placeholder="Enter your address....."></textarea>
+                    </div>
+                    <div class="form-control">
+                        <label for="city">City</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-control">
+                        <label for="pin">PinCode</label>
+                        <input type="number">
+                    </div>
+                    <div class="form-control">
+                        <label for="date">Date</label>
+                        <input type="date">
+                    </div>
+                    <div class="form-control">
+                        <label for="upload">Upload Resume</label>
+                        <input type="file">
+                    </div>
+                </div>
+                <div class="button-container">
+                    <button type="submit">Apply Now</button>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
